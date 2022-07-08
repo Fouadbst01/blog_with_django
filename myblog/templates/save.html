@@ -1,0 +1,6 @@
+<form action="{% url myblog:get_auter %}" method="POST">
+{% csrf_token %}
+<input type="text" name="name" id="name">
+<input type="text" name="prenom" id="prenom">
+<input type="submit">
+</form>
